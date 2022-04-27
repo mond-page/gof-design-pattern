@@ -16,6 +16,11 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.boot:spring-boot-starter-web:2.6.6'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // modelmapper (use prototype pattern)
+    implementation 'org.modelmapper:modelmapper:2.3.8'
+
+
 }
 
 tasks.named('test') {
