@@ -20,6 +20,4 @@ public class TourDirector {
                 .addPlan(3, "카페 투어")
                 .getPlan();
     }
-
-
 }

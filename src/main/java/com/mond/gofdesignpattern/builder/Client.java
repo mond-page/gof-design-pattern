@@ -23,6 +23,7 @@ public class Client {
         TourDirector tourDirector = new TourDirector(new DefaultTourPlanBuilder());
         TourPlan jejuTrip = tourDirector.jejuTrip();
 
+//        Stream.Builder<String> stringBuilder = Stream.builder();
         Stream<String> names = Stream.<String>builder().add("jeju").add("trip").build();
         names.forEach(System.out::println);
 

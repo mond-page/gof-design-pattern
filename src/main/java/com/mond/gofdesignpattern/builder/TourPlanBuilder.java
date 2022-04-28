@@ -14,6 +14,6 @@ public interface TourPlanBuilder {
 
     TourPlanBuilder addPlan(int day, String plan);
 
-    TourPlan getPlan();
+    TourPlan getPlan(); // TourPlan을 반환하기 전까지 Method Chaning이 일어남
 
 }
