@@ -20,7 +20,9 @@ dependencies {
     // modelmapper (use prototype pattern)
     implementation 'org.modelmapper:modelmapper:2.3.8'
 
-
+    // use bridge pattern
+    implementation 'org.springframework:spring-context-support:5.3.19'
+    implementation 'org.springframework:spring-jdbc:5.3.19'
 }
 
 tasks.named('test') {
