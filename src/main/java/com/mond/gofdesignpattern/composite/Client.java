@@ -1,0 +1,21 @@
+package com.mond.gofdesignpattern.composite;
+
+public class Client {
+
+    public static void main(String[] args) {
+        Item doranBlade = new Item("도란검", 450);
+        Item healPotion = new Item("체력 물약", 50);
+
+        Bag bag = new Bag();
+        bag.add(doranBlade);
+        bag.add(healPotion);
+
+        Client client = new Client();
+        client.printPrice(bag);
+        client.printPrice(doranBlade);
+    }
+
+    private void printPrice(Component component) {
+        System.out.println(component.getPrice());
+    }
+}
