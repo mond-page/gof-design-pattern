@@ -26,6 +26,9 @@ dependencies {
 
     // use facade pattern
     implementation 'com.sun.mail:jakarta.mail:2.0.1'
+
+    // use proxy pattern
+    implementation 'org.springframework.boot:spring-boot-starter-aop:2.6.6'
 }
 
 tasks.named('test') {
