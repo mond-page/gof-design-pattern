@@ -29,6 +29,9 @@ dependencies {
 
     // use proxy pattern
     implementation 'org.springframework.boot:spring-boot-starter-aop:2.6.6'
+
+    // use chain of responsibility pattern
+    implementation 'org.springframework.security:spring-security-config:5.6.3'
 }
 
 tasks.named('test') {
