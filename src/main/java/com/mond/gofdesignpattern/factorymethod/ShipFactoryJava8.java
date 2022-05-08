@@ -1,6 +1,6 @@
 package com.mond.gofdesignpattern.factorymethod;
 
-public interface ShiFactoryJava8 {
+public interface ShipFactoryJava8 {
 
     default Ship orderShip(String name, String email) {
         validate(name,  email);

@@ -1,5 +1,8 @@
 package com.mond.gofdesignpattern.abstractfactory;
 
+import com.mond.gofdesignpattern.abstractfactory.after.Anchor;
+import com.mond.gofdesignpattern.abstractfactory.after.Wheel;
+
 public class Ship {
 
     String name;

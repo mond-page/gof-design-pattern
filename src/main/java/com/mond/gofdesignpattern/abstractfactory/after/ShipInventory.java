@@ -1,7 +1,7 @@
-package com.mond.gofdesignpattern.abstractfactory;
+package com.mond.gofdesignpattern.abstractfactory.after;
 
-import org.springframework.beans.factory.FactoryBean;
-
+import com.mond.gofdesignpattern.abstractfactory.Ship;
+import com.mond.gofdesignpattern.abstractfactory.ShipFactory;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -29,8 +29,6 @@ public class ShipInventory {
 
         XPathFactory xPathFactory = XPathFactory.newInstance();
         XPath xPath = xPathFactory.newXPath();
-
-
 
     }
 }

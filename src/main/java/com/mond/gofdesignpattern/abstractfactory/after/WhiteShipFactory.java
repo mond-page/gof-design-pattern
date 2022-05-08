@@ -1,4 +1,8 @@
-package com.mond.gofdesignpattern.abstractfactory;
+package com.mond.gofdesignpattern.abstractfactory.after;
+
+import com.mond.gofdesignpattern.abstractfactory.Ship;
+import com.mond.gofdesignpattern.abstractfactory.ShipFactory;
+import com.mond.gofdesignpattern.abstractfactory.WhiteShip;
 
 public class WhiteShipFactory implements ShipFactory {
 

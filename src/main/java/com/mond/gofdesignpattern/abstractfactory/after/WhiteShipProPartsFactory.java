@@ -1,6 +1,6 @@
-package com.mond.gofdesignpattern.abstractfactory;
+package com.mond.gofdesignpattern.abstractfactory.after;
 
-public class WhiteShipProPartsFactory implements ShipPartsFactory{
+public class WhiteShipProPartsFactory implements ShipPartsFactory {
     @Override
     public Anchor createAnchor() {
         return new WhiteAnchorPro();

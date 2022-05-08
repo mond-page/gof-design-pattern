@@ -1,4 +1,4 @@
-package com.mond.gofdesignpattern.abstractfactory;
+package com.mond.gofdesignpattern.abstractfactory.after;
 
 public interface ShipPartsFactory {
 

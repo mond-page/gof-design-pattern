@@ -1,7 +1,6 @@
-package com.mond.gofdesignpattern.factorymethod;
+package com.mond.gofdesignpattern.abstractfactory.before;
 
-// Java 8 버전 이하의 예제코드
-public abstract class DefaultShipFactoryJava8 implements ShipFactoryJava8 {
+public abstract class DefaultShipFactory implements ShipFactory {
 
     @Override
     public void validate(String name, String email) {
